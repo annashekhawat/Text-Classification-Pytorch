@@ -5,9 +5,9 @@ import sys
 import torch
 from torch.nn import functional as F
 import numpy as np
-from torchtext import data
-from torchtext import datasets
-from torchtext.vocab import Vectors, GloVe
+from torchtext.legacy import data 
+from torchtext.legacy import datasets
+from torchtext.legacy.vocab import Vectors, GloVe
 
 def load_dataset(test_sen=None):
 
