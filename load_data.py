@@ -7,7 +7,7 @@ from torch.nn import functional as F
 import numpy as np
 from torchtext.legacy import data 
 from torchtext.legacy import datasets
-from torchtext.legacy.vocab import Vectors, GloVe
+from torchtext.vocab import Vectors, GloVe
 
 def load_dataset(test_sen=None):
 
